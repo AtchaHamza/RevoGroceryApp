@@ -14,7 +14,19 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@rga/carts-data": ["libs/carts/data/src/index.ts"],
+      "@rga/carts-feature": ["libs/carts/feature/src/index.ts"],
+      "@rga/carts-model": ["libs/carts/model/src/index.ts"],
+      "@rga/carts-ui": ["libs/carts/ui/src/index.ts"],
+      "@rga/products-data": ["libs/products/data/src/index.ts"],
+      "@rga/products-feature": ["libs/products/feature/src/index.ts"],
+      "@rga/products-model": ["libs/products/model/src/index.ts"],
+      "@rga/products-ui": ["libs/products/ui/src/index.ts"],
+      "@rga/shared-data": ["libs/shared/data/src/index.ts"],
+      "@rga/shared-model": ["libs/shared/model/src/index.ts"],
+      "@rga/shared-ui": ["libs/shared/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
